@@ -1,0 +1,2 @@
+app.createClass('todoModel', function() {
+});

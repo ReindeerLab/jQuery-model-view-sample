@@ -1,0 +1,2 @@
+app.createClass('todoView', function() {
+});

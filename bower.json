@@ -1,0 +1,20 @@
+{
+  "name": "jQuery-model-view-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ReindeerLab/jQuery-model-view-sample",
+  "authors": [
+    "dachi023 <ar.19920223@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
