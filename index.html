@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Example | form</title>
-  <link rel="stylesheet" href="bower_components/dist/css/bootstrap.min.css">
+  <title>Example | model and   view</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
-  <div class="row">
+  <div class="row" style="margin-top: 50px;">
     <form>
       <div class="form-group">
         <label for="email">Email</label>
@@ -18,13 +18,21 @@
         <label for="name">Name</label>
         <input type="text" id="name" class="form-control" placeholder="Your name">
       </div>
-      <button type="button" class="btn btn-default">Submit</button>
+      <button type="submit" id="add" class="btn btn-primary">Add</button>
     </form>
+  </div>
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr><th>ID</th><th>Email</th><th>Name</th></tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
   </div>
 </div>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/dist/js/bootstrap.min.js"></script>
-<script src="app/scripts/app.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="app/scripts/model/todo.js"></script>
 <script src="app/scripts/view/todo.js"></script>
 </body>
