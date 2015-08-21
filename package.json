@@ -18,7 +18,19 @@
   },
   "homepage": "https://github.com/ReindeerLab/jQuery-model-view-sample#readme",
   "devDependencies": {
-    "bower": "^1.4.1",
-    "gulp": "^3.9.0"
+    "browser-sync": "^2.8.2",
+    "browserify": "^11.0.1",
+    "coffee-script": "^1.9.3",
+    "coffeeify": "^1.1.0",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4"
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.min.js",
+    "browserify": "./node_modules/bootstrap/dist/js/bootstrap.min.js"
   }
 }
