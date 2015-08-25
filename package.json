@@ -33,6 +33,6 @@
   },
   "browser": {
     "jquery": "./node_modules/jquery/dist/jquery.min.js",
-    "browserify": "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.min.js"
   }
 }
