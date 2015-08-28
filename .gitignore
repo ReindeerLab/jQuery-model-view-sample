@@ -1,5 +1,7 @@
 node_modules/
+assets/
 bundle.js
+main.css
 .DS_Store
 *.tmp
 *.swp
